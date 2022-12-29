@@ -1,0 +1,49 @@
+body{
+    margin: 15px 45px;
+}
+
+.CreateCarForm {
+    text-align: center;
+}
+
+.CreateCarForm form{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: solid 2px;
+}
+
+.CreateCarForm p{
+    color: black;
+    font-size: large;
+}
+
+/* ---------------------------------------------
+ INICIO DE ESTILOS PARA EL COMPONENTE CAR 
+---------------------------------------------*/
+
+/* .CarComponent{
+    border: solid 2px;
+} */
+
+.CarComponent p{
+    text-align: center;
+}
+
+.CarComponent p i{
+    margin-left: 10px;
+}
+
+.CarComponent p i:hover{
+    cursor: pointer;
+}
+
+.CarComponent .fa-pen-to-square{
+    color: blue;
+}
+
+.CarComponent .fa-trash-can{
+    color: red;
+}
